@@ -1,0 +1,9 @@
+# Servers
+bc:34:11:9d:a3:c1 # Server1.abc.net
+ba:25:12:8c:f4:cc # Server2.abc.net
+# Clients
+11:22:33:44:55:66 # PC
+# IoT
+22:33:44:55:66:77 # Temp Sensor
+# Network
+aa:bb:cc:dd:ee:ff # Switch
