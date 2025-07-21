@@ -6,7 +6,7 @@ I have tried and used "Watch Your LAN" and NetAlerX for several year and got tir
 This small script connects to your Unifi controller API and get all client data and verify MAC addresses with a simple text file.\
 If I need to add another trusted MAC address, you just add another line in the text file.\
 So far I keept it very small and basic (on purpose).. :-) \
-BTW. I'm not a coder by trade so don't expect to fancy features snd streamline codeing....\   
+BTW. I'm not a coder by trade so don't expect to fancy features snd streamline coding....\   
 
 ## Fetures:
 - Extract all known MAC addresses connected to your network managed by Unifi Network Server
