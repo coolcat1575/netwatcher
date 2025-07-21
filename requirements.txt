@@ -1,0 +1,4 @@
+requests
+schedule
+urllib3
+python-dotenv
