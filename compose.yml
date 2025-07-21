@@ -1,0 +1,15 @@
+services:
+  netwatch:
+    image: coolcat/netwatcher:latest
+    environment:
+      UNIFI_URL: "https://[FQDN or IP]" # URL to your Unifi Network Server
+      UNIFI_USERNAME: "[USERNAME]" # Unifi Username
+      UNIFI_PASSWORD: "[PASSWORD]" # Unifi Password
+      UNIFI_SITE: "default" # Unifi Site name
+      PUSHOVER_TOKEN: "[PUSHOVER_APP_TOKEN]" # PushOver Application Token
+      PUSHOVER_USER: "[PUSHOVER_USER_TOKEN]" # PushOver User Token
+      TRUSTED_MACS_PATH: "/app/config/trusted.txt" # Do not change
+      CHECK_INTERVAL: "1"  # in minutes
+    volumes:
+      - ./config:/app/config # Trusted MAC addresses path
+      - ./logs:/app/logs # log path
