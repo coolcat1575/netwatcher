@@ -9,7 +9,7 @@ So far I keept it very small and basic (on purpose).. :-) \
 BTW. I'm not a coder by trade so don't expect to fancy features snd streamline coding....\   
 
 ## Fetures:
-- Extract all known MAC addresses connected to your network managed by Unifi Network Server
+- Extract all known MAC addresses connected to your network managed by Unifi Controller
 - Alert to Pushover if new (untrusted) MAC addresses are seen on the network
 - Manually add trusted MAC addresses to trusted.txt
 
