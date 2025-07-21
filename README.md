@@ -1,5 +1,5 @@
 # Netwatcher
-Monitor your network for unknown MAC addresses using data from UniFi controller and alert using Pushover\
+Monitor your network for unknown MAC addresses using data from UniFi controller and alert using Pushover
 
 ## Background:
 I have tried and used "Watch Your LAN" and NetAlerX for several year and got tired of the way they works by scanning the network (arp-scan)\
