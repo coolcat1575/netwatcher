@@ -19,4 +19,4 @@ BTW. I'm not a coder by trade so don't expect to fancy features snd streamline c
 ## ToDO:
 - Add simple WebUI to add trusted MAC addresses to trusted.txt
 - Add more notification services Discord, Gotify, a.s.o
-- ???
+- add feature to block all untusted MAC addresses
